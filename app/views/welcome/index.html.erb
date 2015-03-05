@@ -1,0 +1,12 @@
+<h1>Welcome#index</h1>
+<p>Find me in app/views/welcome/index.html.erb</p>
+
+
+<% @tracks.each do |track| %>
+  <%= render 'track', track: track %>
+<% end %>
+
+
+<% @tracks.each do |track| %>
+  <%= track %><br>
+<% end %>
